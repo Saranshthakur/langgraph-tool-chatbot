@@ -41,8 +41,7 @@ Here’s the basic flow:
    - Conditional edges (`tools_condition`) decide when to jump between them.
 
 4. **Run it**  
-   - You send a message like “What is LangGraph?”  
-   - The flow goes: `chatbot → tools → chatbot` (if tool call happens).  
+   - You send a message like “What is LangGraph?”   
    - The final answer is printed at the end.
 
 In short, the model figures out when it needs extra info and uses the right tool to get it before replying.

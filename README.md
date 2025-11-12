@@ -1,6 +1,6 @@
 #  LangGraph Intelligent Chatbot
 
-This project is a small but complete example of how to build a chatbot that can both **chat naturally** and **look up real information** when it needs to.
+In this project we have build a chatbot that can both **chat naturally** and **look up real information** when it needs to.
 
 It uses **LangGraph** to handle the conversation flow and **Groq’s Gemma-2-9B model** to generate responses. When you ask a factual question, it automatically uses **Wikipedia** or **ArXiv** to find real answers before replying.
 
